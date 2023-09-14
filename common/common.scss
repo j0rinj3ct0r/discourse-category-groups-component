@@ -1,7 +1,7 @@
 .custom-category-group {
   margin: 0;
   padding: 0;
-
+  direction: rtl;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); 
   grid-gap: 2em;
