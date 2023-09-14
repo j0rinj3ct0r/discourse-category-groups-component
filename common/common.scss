@@ -27,7 +27,7 @@
     
     h3,
     .description  {
-      text-align: left;
+      text-align: right;
       font-weight: normal;
     }
 
@@ -53,7 +53,7 @@
 .custom-category-group-toggle {
   display: flex;
   align-items: center;
-  padding-top: .5em;
+  padding-bottom: .5em;
 
   h2 {
    margin-top: 0 !important; // too specific in core due to ID
@@ -64,7 +64,7 @@
   .d-icon {
     font-size: var(--font-up-2);
     top: -.15em; // alignment 
-    margin-left: .33em;
+    margin-right: .33em;
     color: var(--primary-medium);
   }
 
@@ -99,7 +99,7 @@
 
     } 
     .custom-category-group-toggle .d-icon {
-      transform: rotate(90deg);
+      transform: rotate(-90deg);
     }
   }
 }
@@ -145,8 +145,8 @@
     .category-box {
       border-radius: 8px;
       overflow: hidden;
-      border: 1px solid;
-      border-bottom: 8px solid;
+      border-left: 1px solid;
+      border-bottom: 0;
       transition: all .25s;
       .category-box-inner {
         border: none;
