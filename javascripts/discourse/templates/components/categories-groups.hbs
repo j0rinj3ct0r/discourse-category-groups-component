@@ -62,13 +62,13 @@
                       {{#each c.subcategories as |sc|}}
                         <a class="subcategory" href={{sc.url}}>
                           <span class="subcategory-image-placeholder">
-                            {{cdn-img
-                                src=sc.uploaded_logo.url
-                                class="logo"
-                                width=sc.uploaded_logo.width
-                                height=sc.uploaded_logo.height
-                                alt=""}}
-                          </span>
+  {{cdn-img
+    src=sc.uploaded_logo.url
+    class="logo"
+    width="20"
+    height="20"
+    alt=""}}
+</span>
                           {{category-link sc hideParent="true"}}
                         </a>
                       {{/each}}
