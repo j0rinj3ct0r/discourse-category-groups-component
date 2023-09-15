@@ -148,8 +148,9 @@
     .category-box {
       border-radius: 8px;
       overflow: hidden;
-      border-left: 1px solid;
-      border-bottom: 8px solid;
+      border-left: 4px solid;
+      border-bottom: 4px solid;
+      border-top: 4px solid;
       transition: all .25s;
       .category-box-inner {
         border: none;
