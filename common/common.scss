@@ -43,8 +43,7 @@
 
   .category-box .logo.aspect-image img {
     margin: 1em 0;
- height: 20%;
-    width: 20%;
+
   }
 
   .subcategories .subcategory .subcategory-image-placeholder {
@@ -150,7 +149,7 @@
       border-radius: 8px;
       overflow: hidden;
       border-left: 1px solid;
-      border-bottom: 2;
+      border-bottom: 1;
       transition: all .25s;
       .category-box-inner {
         border: none;
